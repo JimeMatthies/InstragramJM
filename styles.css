@@ -1,0 +1,50 @@
+body {
+    background: #e0e0e0;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: white;
+    width: 100%;
+    padding: 10px;
+}
+header h1 {
+    margin: 0%;
+}
+div {
+    box-sizing: border-box;
+}
+div.container {
+    width: 500px;
+    margin: auto;
+}
+div.container div.post:last-child {
+    margin-bottom: 50px;
+}
+div.post {
+    background: white;
+    margin-top: 50px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+div.post div.post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.post div.post-header div:last-child {
+    display: inline-block;
+    text-align: right;
+    padding-right: 17px;
+    width: 20%;
+    color: rgb(158, 158, 158);
+}
+div.post h2,
+div.post p {
+    padding: 17px;
+    margin: 0%;
+}
+div.post img {
+    width: 100%
+}
